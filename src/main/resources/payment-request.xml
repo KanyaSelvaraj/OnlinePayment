@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://onlinepayment.com/spring_boot_soap_example">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getOnlinePaymentRequest>
+            <gs:name>RRN</gs:name>
+        </gs:getOnlinePaymentRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
